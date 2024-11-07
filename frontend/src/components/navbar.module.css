@@ -1,15 +1,4 @@
 
-:root{
-    --dark-1: hsl(228, 10%, 10%);
-    --dark-2: hsl(228, 10%, 15%);
-    --dark-3: hsl(228, 10%, 13%);
-    --green-1: rgb(43, 209, 129);
-    --title-font: "Noto Sans JP", sans-serif;
-    --text-font: "Quicksand", sans-serif;
-    --green-2: #30e990;
-    --light-green-1: #68fbc2;
-
-}
 body, html{
     margin: 0;
     height: 100%;
@@ -17,7 +6,7 @@ body, html{
 
 body{
     overflow-x: hidden;
-    background-color: var(--dark-1);
+    background-color: var(--dark-2);
 }
 
 .navbar{
@@ -25,8 +14,7 @@ body{
     justify-content: space-between;
     font-family: var(--text-font);
     font-optical-sizing: auto;
-    font-style: normal;
-
+    font-style: normal; 
     color: white;
 }
 
@@ -34,7 +22,7 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .navButton{
@@ -52,8 +40,8 @@ body{
     transition: background-color 150ms ease-out, filter 150ms ease-out, box-shadow 150ms ease-out;
 }
 
-.nav-button:not(.loginButton):hover{
-    filter: brightness(2);
+.navButton:not(.loginButton):hover{
+    background-color: rgba(255,255,255,0.1);
 }
 
 .loginButton{
