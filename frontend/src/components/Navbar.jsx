@@ -12,7 +12,7 @@ function Navbar({buttons}) {
       <div className={styles.navButtons}>
         {buttons.map((buttonText) => {
           return (
-            <button>
+            <button
               className={`${styles.navButton} ${
                 buttonText === "Login" ? styles.loginButton : ""
               }`}
