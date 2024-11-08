@@ -1,18 +1,25 @@
-.pageContainer{
-    width: 100vw;
+body, html{ 
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
 }
-
+.wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 30px;
+}
 .contentWrapper{
-    background-color: var(--dark-3);
+    background-color: var(--dark-1);
     width: 60%;
     height: 80%;
     display: flex;
     font-family: var(--text-font);
+    margin-inline: auto;
+    color: white;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: black 0px 0px 10px;
 }
 
 .leftContent{
@@ -20,7 +27,10 @@
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
+    width: 50%;
     background-color: var(--dark-1);
+    overflow: hidden;
+    min-width: 300px;
 }
 
 .signUpWrapper{
@@ -78,7 +88,7 @@
     padding-bottom: 2px;
 }
 
-.signUpButton{
+.signUpButton, .doneButton{
     position: relative;
     min-width: 135px;
     min-height: 35px;
@@ -87,6 +97,7 @@
     color: white;
     background-image: linear-gradient(45deg, var(--green-1), var(--light-green-1));
     margin-bottom: 30px;
+    margin-top: 20px;
     font-size: 1.7rem;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -96,28 +107,8 @@
     transition: transform 150ms ease-in-out;
 }
 
-.signUpButton::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-    background-image: linear-gradient(45deg, var(--green-1), var(--light-green-1));
-    filter: blur(0px);
-    transition: filter 150ms linear;
-    z-index: -1;
-}
-
-.signUpButton:hover::before{
-    filter: blur(10px);
-}
-
-.signUpButton:hover{
-
+.signUpButton:hover, .doneButton:hover{
     transform: scale(1.1);
-
 }
 
 .sidebar{
@@ -157,7 +148,9 @@
 }
 
 .userImg{
-    width: 500px;
+    max-width: 500px;
+    width: 90%;
+    height: 90%;
     margin-inline: 30px;
     opacity: 0.1;
 }
@@ -173,6 +166,7 @@
 .loginText{
     margin: 0px;
     padding-bottom: 4px;
+    text-align: center;
 }
 
 .loginButton{
@@ -194,77 +188,67 @@
     background-size: 100% 5px;
 }
 
+.fadeOut{
+    position: relative;
+    animation: fade-out 300ms ease-in forwards;
+}
 
+.fadeIn{
+    position: relative;
+    animation: fade-in 300ms ease-in forwards;
+}
 
-/* .contentWrapper{
+/* Load the tutor section */
+.tutorWrapper{
     background-color: var(--dark-1);
-    display: flex;
-    justify-self: center;    
-    width: 50%;
-    height: 80vh !important;
-    padding: 20px;
-    padding-left: 0;
-    padding-bottom: 0;
-}
-
-
-.leftContent{
-    display: flex;
-    flex-direction: column-reverse;
-    max-width: 55%;
-    flex-grow: 1;
-}
-
-.sidebar{
-
-    display: flex;
-    flex-grow: 1;
-    max-height: 35px;
-}
-
-.userTypeButton{
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
-}
-
-.signUpWrapper{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-    padding-bottom: 20px;
-    align-items: center;
 }
 
-.signUpTitle{
-    color: white;
+.tutorTitle{
+    font-family: var(--title-font);
     text-align: center;
-    border-bottom: 5px solid var(--green-1);
-    width: calc(100% - 40px);
-    padding-bottom: 10px;
 }
 
-.signUpButton{
-    width: 135px;
-    border-radius: 100px;
-    height: 35px;
+.tutorText{
+    text-align: center;
 }
 
-.signUpInputs{
-    background-color: red;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; 
+.topicsWrapper{
+    overflow-y: auto;
+    width: 60%;
+    overflow-x: hidden;
+    margin-inline: auto;
+    margin-bottom: 20px;
+    display: grid;
+    border-radius: 10px;
+    flex-grow: 1;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
 }
 
+@keyframes fade-in{
+    0%{
+        left: 100%;
+        opacity: 0;
+    }
 
-.rightContent{
-    max-width: 45%;
+    100%{
+        left: 0;
+        opacity: 1;
+    }
 }
 
-.userImg{
-    width: 100%;
-} */
+@keyframes fade-out{
+
+    0%{
+        left: 0px;
+        opacity: 1;
+    }
+    100%{
+        left: -100%;
+        opacity: 0;
+    }
+
+}
