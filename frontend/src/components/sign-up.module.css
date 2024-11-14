@@ -19,7 +19,6 @@ body, html{
     color: white;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: black 0px 0px 10px;
 }
 
 .leftContent{
@@ -88,7 +87,7 @@ body, html{
     padding-bottom: 2px;
 }
 
-.signUpButton, .doneButton{
+.signUpButton{
     position: relative;
     min-width: 135px;
     min-height: 35px;
@@ -107,7 +106,25 @@ body, html{
     transition: transform 150ms ease-in-out;
 }
 
-.signUpButton:hover, .doneButton:hover{
+.signUpButton::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-image: linear-gradient(45deg, var(--green-1), var(--light-green-1));
+    filter: blur(0px);
+    transition: filter 150ms linear;
+    z-index: -1;
+}
+
+.signUpButton:hover::before{
+    filter: blur(5px);
+}
+
+.signUpButton:hover{
     transform: scale(1.1);
 }
 

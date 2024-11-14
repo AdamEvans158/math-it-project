@@ -1,7 +1,10 @@
 import { Router, Route } from "@solidjs/router";
 import Landing from './components/Landing';
 import SignUp from "./components/SignUp";
-import UserHome from "./components/UserHome";
+import UserLanding from "./components/UserLanding";
+import MathPractice from "./components/mathPractice";
+import SubjectPage from "./components/SubjectPage";
+import { useParams } from "@solidjs/router";
 
 function App() {
 
@@ -13,7 +16,14 @@ function App() {
 
       <Route path="/signup" component={<SignUp/>}></Route>
 
-        <Route path="/users/:id" component={<UserHome/>}></Route>
+      <Route path="/users/:id/practice" component={<MathPractice/>}></Route>
+
+      <Route path="/users/:id/landing" component={<UserLanding />}></Route>
+
+      <Route path="users/:id/practice/:subject" component={() => {
+          const params = useParams();
+          return <SubjectPage params={params} />
+      }}></Route>
 
     </Router>
 
