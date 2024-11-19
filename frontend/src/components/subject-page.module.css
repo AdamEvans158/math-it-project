@@ -14,12 +14,3 @@
 
 }
 
-.subjectTitle{
-    font-family: var(--title-font);
-}
-
-.topicsContainer{
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}

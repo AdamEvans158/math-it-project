@@ -1,8 +1,7 @@
 import styles from "./subject-page.module.css"
 import SideNavbar from "./SideNavbar";
 import subjectsJSON from "../json/subjects.json";
-import { Show } from "solid-js";
-import SubjectButton from "./SubjectButton";
+import { createSignal, Show } from "solid-js";
 const subjects = subjectsJSON.subjects;
 
 function SubjectPage({params}) {
@@ -19,24 +18,36 @@ function SubjectPage({params}) {
 
     const topics = getTopics(subject);
 
+    const [topicTitle, setTopicTitle] = createSignal("");
+    const [topicDescription, setTopicDescription] = createSignal("");
+
     return (
         <div className={styles.wrapper}>
             <SideNavbar />
             <div className={styles.pageContent}>
 
-
                 <Show when={topics}>
-                    <h1 className={styles.subjectTitle}>{subjectTitle}</h1>
+                    
+                    <div className={styles.subjectContainer}>
+                        
+                        <div className={styles.leftContent}>
+                            <h1 className={styles.subjectTitle}>{subjectTitle}</h1>
+                            <div className={styles.topicsContainer}>
+                                {topics.map(topic => {
+                                    <button className={styles.topicButton}>{topic}</button>
+                                })}
+                            </div>
 
-                    <div className={styles.topicsContainer}>
-                        {topics.map((topic) => {
-                            return (
+                        </div>
 
-                                <SubjectButton title={topic} />
-                            )
+                        <div className={styles.rightContent}>
 
-                        })}
+                                <h2 className={styles.titleTopic}>{topicTitle()}</h2>
+                                <p className={styles.topicDescription}>{topicDescription()}</p>
+                        </div>
+
                     </div>
+
                 </Show>
 
                 <Show when={!topics}>

@@ -17,7 +17,7 @@ const features = landingJSON.features;
 const icons = [basic4Icon, postIcon, teacherIcon, gradeIcon, puzzleIcon];
 
 function Landing() {
-  const [subject, setSubject] = createSignal("Algbra");
+  const [subject, setSubject] = createSignal("Algebra");
 
   const subjectTimer = 4500;
 
@@ -50,8 +50,7 @@ function Landing() {
 
       <div className={styles.mathUpCanvas} id="mathCanvas">
         {mathStrings.map((equation) => {
-          const timer = mathStrings.indexOf(equation) * 3000;
-          MathJax.Hub.Typeset();
+          const timer = mathStrings.indexOf(equation) * 1000;
           return (
             <h2
               className={styles.mathItem}
@@ -64,6 +63,7 @@ function Landing() {
             </h2>
           );
         })}
+        {() => {MathJax.Hub.Typeset();}}
       </div>
 
       <section className={styles.aboutSection}>
