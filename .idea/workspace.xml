@@ -6,23 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="09ad475b-ad77-4ab2-b840-4171c8323225" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/database.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/User.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Landing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Landing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SideNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SideNavbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/FormsLanding.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/FormsLanding.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/QuestionTab.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/QuestionTab.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SignUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SubjectButton.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SubjectPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SubjectPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/landing.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/landing.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/mathPractice.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/mathPractice.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/sign-up.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/sign-up.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/subject-box.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/subject-box.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/subject-button.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/subject-page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/subject-page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/json/subjects.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/json/subjects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/SubjectBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SubjectBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/forms-landing.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/forms-landing.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/question-tab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +88,9 @@
       <workItem from="1731588584345" duration="4077000" />
       <workItem from="1731687308426" duration="1797000" />
       <workItem from="1731933905505" duration="4524000" />
-      <workItem from="1732032306898" duration="7284000" />
+      <workItem from="1732032306898" duration="7404000" />
+      <workItem from="1732106820607" duration="443000" />
+      <workItem from="1732107315084" duration="3765000" />
     </task>
     <servers />
   </component>
