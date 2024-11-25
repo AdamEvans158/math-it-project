@@ -3,11 +3,13 @@ import SideNavbar from "./SideNavbar";
 import subjectsJSON from "../json/subjects.json";
 import { createSignal } from "solid-js";
 import QuestionTab from "./QuestionTab";
+import { Show } from "solid-js";
 
 function FormsLanding() {
   let subjects = subjectsJSON.subjects;
 
-  const [subjectFilter, setSubjectFilter] = createSignal("Subject");
+  const [subjectFilter, setSubjectFilter] = createSignal("All Subjects");
+  const [subjectColor, setSubjectColor] = createSignal("");
 
   const toggleActiveFilter = (e) => {
     e.preventDefault();
@@ -34,7 +36,61 @@ function FormsLanding() {
       startText: "I have been learning angular JS for about a week and am having trouble loading my JSX templates. In the App.jsx, I create a router element and do more stuff to it to make it do more things for which is undisclosed to you, the reader.",
       tags: ["JS", "Angular", "JSX"],
       username: "DarbouxIntegrable"
-    }
+    },
+    {
+      title: "Help Loading Angular JS Templates",
+      votes: 2,
+      answers: 1,
+      views: 20,
+      startText: "I have been learning angular JS for about a week and am having trouble loading my JSX templates. In the App.jsx, I create a router element and do more stuff to it to make it do more things for which is undisclosed to you, the reader.",
+      tags: ["JS", "Angular", "JSX"],
+      username: "DarbouxIntegrable"
+    },
+    {
+      title: "Help Loading Angular JS Templates",
+      votes: 2,
+      answers: 1,
+      views: 20,
+      startText: "I have been learning angular JS for about a week and am having trouble loading my JSX templates. In the App.jsx, I create a router element and do more stuff to it to make it do more things for which is undisclosed to you, the reader.",
+      tags: ["JS", "Angular", "JSX"],
+      username: "DarbouxIntegrable"
+    },
+    {
+      title: "Help Loading Angular JS Templates",
+      votes: 2,
+      answers: 1,
+      views: 20,
+      startText: "I have been learning angular JS for about a week and am having trouble loading my JSX templates. In the App.jsx, I create a router element and do more stuff to it to make it do more things for which is undisclosed to you, the reader.",
+      tags: ["JS", "Angular", "JSX"],
+      username: "DarbouxIntegrable"
+    },
+    {
+      title: "Help Loading Angular JS Templates",
+      votes: 2,
+      answers: 1,
+      views: 20,
+      startText: "I have been learning angular JS for about a week and am having trouble loading my JSX templates. In the App.jsx, I create a router element and do more stuff to it to make it do more things for which is undisclosed to you, the reader.",
+      tags: ["JS", "Angular", "JSX"],
+      username: "DarbouxIntegrable"
+    },
+    {
+      title: "Help Loading Angular JS Templates",
+      votes: 2,
+      answers: 1,
+      views: 20,
+      startText: "I have been learning angular JS for about a week and am having trouble loading my JSX templates. In the App.jsx, I create a router element and do more stuff to it to make it do more things for which is undisclosed to you, the reader.",
+      tags: ["JS", "Angular", "JSX"],
+      username: "DarbouxIntegrable"
+    },
+    {
+      title: "Help Loading Angular JS Templates",
+      votes: 2,
+      answers: 1,
+      views: 20,
+      startText: "I have been learning angular JS for about a week and am having trouble loading my JSX templates. In the App.jsx, I create a router element and do more stuff to it to make it do more things for which is undisclosed to you, the reader.",
+      tags: ["JS", "Angular", "JSX"],
+      username: "DarbouxIntegrable"
+    },
   ]
 
   return (
@@ -81,14 +137,18 @@ function FormsLanding() {
 
                 <div className={styles.subjectFiltersWrapper}>
                   <div className={styles.currentSubjectButton}>
-                    {subjectFilter()}
+                    <Show when={subjectFilter() != "All Subjects"}>
+                      <div className={styles.colorBox} style={{"background-color": subjectColor()}}></div>
+                    </Show>
+
+                    <p>{subjectFilter()}</p>
                   </div>
                   <div className={styles.subjectFilters}>
                     {subjects.map((subject) => {
                       return (
                         <div
                           className={styles.subjectFilter}
-                          onclick={() => setSubjectFilter(subject.subject)}
+                          onclick={() =>{setSubjectFilter(subject.subject); setSubjectColor(subject.color1)}}
                         >
                           <div
                             className={styles.subjectColor}
