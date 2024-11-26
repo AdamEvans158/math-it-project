@@ -5,20 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09ad475b-ad77-4ab2-b840-4171c8323225" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/FormsLanding.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/FormsLanding.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SideNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SideNavbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SubjectBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SubjectBox.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SubjectPage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/forms-landing.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/forms-landing.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/math-practice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/math-practice.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/mathPractice.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/mathPractice.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/question-tab.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/question-tab.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/side-navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/side-navbar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/subject-box.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/subject-box.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/subject-page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/json/subjects.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/json/subjects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AssignmentList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/CommentSection.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Feature.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/FormsLanding.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Landing.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Login.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Question.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/QuestionAnswer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/QuestionPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/QuestionTab.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Quote.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/SideNavbar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/SignUp.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/SubjectBar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/SubjectBox.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Tag.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/TextArea.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/UserComment.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/UserLanding.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Vote.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/assignment-list.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/comment-section.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/feature.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/forms-landing.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/landing.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/login.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/math-practice.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/mathPractice.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/navbar.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/question-answer.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/question-page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/question-tab.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/question.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/quote.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/side-navbar.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/sign-up.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/subject-bar.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/subject-box.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/tag.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/text-area.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/user-comment.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/user-landing.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/vote.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/json/landing.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/json/subjects.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vite.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +104,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ATE017/AppData/Roaming/JetBrains/WebStorm2024.2/node/versions/20.17.0/npm&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/ATE017/AppData/Roaming/JetBrains/WebStorm2024.2/node/versions/20.15.0/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ATE017\\AppData\\Local\\JetBrains\\WebStorm 2024.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ATE017/Desktop/Math IT",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/ATE017/AppData/Roaming/JetBrains/WebStorm2024.2/node/versions/20.15.0/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "C:\\Users\\ATE017\\AppData\\Local\\JetBrains\\WebStorm 2024.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,6 +146,9 @@
       <workItem from="1732107315084" duration="4050000" />
       <workItem from="1732204019435" duration="3412000" />
       <workItem from="1732550741805" duration="2911000" />
+      <workItem from="1732624520064" duration="126000" />
+      <workItem from="1732624722663" duration="5000" />
+      <workItem from="1732624835851" duration="27000" />
     </task>
     <servers />
   </component>
